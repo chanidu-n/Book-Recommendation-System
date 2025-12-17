@@ -1,0 +1,8 @@
+book_id,title,genre,pages,difficulty,user_rating
+1,Harry Potter,Fantasy,350,2,5
+2,The Hobbit,Fantasy,300,3,4
+3,Atomic Habits,SelfHelp,280,1,5
+4,Think Like a Monk,SelfHelp,320,2,4
+5,Python Basics,Education,400,3,4
+6,Deep Learning,Education,700,5,3
+7,Data Science 101,Education,500,4,4
