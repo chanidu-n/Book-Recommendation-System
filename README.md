@@ -88,13 +88,24 @@ For developers/ML learners: Example of real ML + AI integration.
 For projects: Combines regression, NLP, and frontend skills in one system.  
 
 
-# how to Run 
-cd backend - python train_model.py   (training the model)
-cd backend - python app.py  (start backend)
 
+# 1. Create virtual environment (recommended)
+python -m venv venv
 
-cd frontend - npm start
+# 2. Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
 
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Train the model
+python train_model.py
+
+# 5. Start the backend server
+python app.py
 
 
 ![alt text](image.png)
