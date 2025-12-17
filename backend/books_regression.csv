@@ -1,8 +1,521 @@
 book_id,title,genre,pages,difficulty,user_rating
-1,Harry Potter,Fantasy,350,2,5
-2,The Hobbit,Fantasy,300,3,4
-3,Atomic Habits,SelfHelp,280,1,5
-4,Think Like a Monk,SelfHelp,320,2,4
-5,Python Basics,Education,400,3,4
-6,Deep Learning,Education,700,5,3
-7,Data Science 101,Education,500,4,4
+1,AI Basics 1,Education,312,4,3
+2,Magic Realm 2,Fantasy,304,5,3
+3,ML Concepts 3,Education,316,2,3
+4,Magic Realm 4,Fantasy,717,5,3
+5,Python Guide 5,Education,666,5,3
+6,Inner Peace 6,SelfHelp,251,1,4
+7,ML Concepts 7,Education,474,4,3
+8,Wizard Quest 8,Fantasy,304,1,4
+9,Wizard Quest 9,Fantasy,552,5,4
+10,Kingdom of Fire 10,Fantasy,749,1,4
+11,Shadow Sword 11,Fantasy,500,5,4
+12,Python Guide 12,Education,660,2,3
+13,Python Guide 13,Education,695,4,3
+14,Dragon Tales 14,Fantasy,589,3,4
+15,Data Science Handbook 15,Education,383,4,4
+16,Wizard Quest 16,Fantasy,899,1,5
+17,Python Guide 17,Education,573,3,3
+18,Success Path 18,SelfHelp,249,3,4
+19,Data Science Handbook 19,Education,731,2,3
+20,Wizard Quest 20,Fantasy,610,3,3
+21,Shadow Sword 21,Fantasy,522,2,5
+22,Success Path 22,SelfHelp,344,2,4
+23,Mind Power 23,SelfHelp,243,3,5
+24,Tech Foundations 24,Education,519,5,4
+25,Magic Realm 25,Fantasy,721,4,3
+26,Dragon Tales 26,Fantasy,356,2,5
+27,Inner Peace 27,SelfHelp,196,2,5
+28,ML Concepts 28,Education,570,4,5
+29,Dragon Tales 29,Fantasy,898,5,4
+30,Data Science Handbook 30,Education,357,4,4
+31,Kingdom of Fire 31,Fantasy,203,3,5
+32,Shadow Sword 32,Fantasy,308,3,5
+33,Tech Foundations 33,Education,401,3,4
+34,Shadow Sword 34,Fantasy,743,1,5
+35,Success Path 35,SelfHelp,184,1,5
+36,Mind Power 36,SelfHelp,194,1,4
+37,Kingdom of Fire 37,Fantasy,270,5,3
+38,Kingdom of Fire 38,Fantasy,762,2,4
+39,Tech Foundations 39,Education,516,3,5
+40,Python Guide 40,Education,665,4,4
+41,Data Science Handbook 41,Education,524,5,3
+42,Magic Realm 42,Fantasy,265,3,3
+43,Tech Foundations 43,Education,417,3,3
+44,Dragon Tales 44,Fantasy,434,1,3
+45,Better You 45,SelfHelp,311,1,5
+46,ML Concepts 46,Education,409,3,5
+47,Tech Foundations 47,Education,542,3,4
+48,Mind Power 48,SelfHelp,204,1,5
+49,Success Path 49,SelfHelp,285,2,4
+50,AI Basics 50,Education,331,5,5
+51,Better You 51,SelfHelp,243,1,4
+52,ML Concepts 52,Education,371,5,3
+53,Success Path 53,SelfHelp,243,1,5
+54,AI Basics 54,Education,325,2,3
+55,Magic Realm 55,Fantasy,616,4,4
+56,Kingdom of Fire 56,Fantasy,260,2,4
+57,Kingdom of Fire 57,Fantasy,471,4,4
+58,Inner Peace 58,SelfHelp,349,3,5
+59,Magic Realm 59,Fantasy,503,2,3
+60,Tech Foundations 60,Education,331,4,3
+61,Shadow Sword 61,Fantasy,688,5,5
+62,Dragon Tales 62,Fantasy,720,1,3
+63,Shadow Sword 63,Fantasy,269,2,4
+64,Shadow Sword 64,Fantasy,452,5,5
+65,Shadow Sword 65,Fantasy,283,4,5
+66,Tech Foundations 66,Education,567,4,4
+67,Wizard Quest 67,Fantasy,444,3,4
+68,Wizard Quest 68,Fantasy,668,3,3
+69,Kingdom of Fire 69,Fantasy,836,5,3
+70,Shadow Sword 70,Fantasy,418,5,4
+71,Wizard Quest 71,Fantasy,270,2,4
+72,Mind Power 72,SelfHelp,292,3,5
+73,Tech Foundations 73,Education,304,4,5
+74,Magic Realm 74,Fantasy,470,1,3
+75,Tech Foundations 75,Education,379,4,4
+76,Python Guide 76,Education,667,4,3
+77,Data Science Handbook 77,Education,558,5,4
+78,Dragon Tales 78,Fantasy,849,4,4
+79,Dragon Tales 79,Fantasy,541,2,5
+80,Mind Power 80,SelfHelp,369,2,5
+81,AI Basics 81,Education,357,2,5
+82,Shadow Sword 82,Fantasy,236,3,5
+83,Python Guide 83,Education,520,3,3
+84,Daily Discipline 84,SelfHelp,383,1,5
+85,Magic Realm 85,Fantasy,882,1,4
+86,ML Concepts 86,Education,798,3,3
+87,Magic Realm 87,Fantasy,622,1,3
+88,Data Science Handbook 88,Education,700,5,5
+89,Python Guide 89,Education,436,3,5
+90,Kingdom of Fire 90,Fantasy,239,4,3
+91,Kingdom of Fire 91,Fantasy,558,3,3
+92,Dragon Tales 92,Fantasy,875,2,4
+93,Daily Discipline 93,SelfHelp,197,2,5
+94,Tech Foundations 94,Education,504,4,3
+95,Wizard Quest 95,Fantasy,382,5,4
+96,Dragon Tales 96,Fantasy,810,4,4
+97,Data Science Handbook 97,Education,523,2,4
+98,Python Guide 98,Education,430,2,5
+99,Better You 99,SelfHelp,313,3,4
+100,Success Path 100,SelfHelp,197,3,5
+101,Data Science Handbook 101,Education,639,2,5
+102,Inner Peace 102,SelfHelp,259,3,5
+103,Success Path 103,SelfHelp,358,2,4
+104,Kingdom of Fire 104,Fantasy,880,4,5
+105,Python Guide 105,Education,615,4,4
+106,AI Basics 106,Education,455,4,3
+107,Inner Peace 107,SelfHelp,335,3,5
+108,Success Path 108,SelfHelp,293,3,4
+109,ML Concepts 109,Education,706,3,5
+110,Wizard Quest 110,Fantasy,727,5,4
+111,Magic Realm 111,Fantasy,888,3,3
+112,Magic Realm 112,Fantasy,225,1,3
+113,Inner Peace 113,SelfHelp,397,1,5
+114,Inner Peace 114,SelfHelp,229,3,5
+115,Success Path 115,SelfHelp,242,1,4
+116,Kingdom of Fire 116,Fantasy,424,2,5
+117,ML Concepts 117,Education,325,3,3
+118,Mind Power 118,SelfHelp,385,2,5
+119,Inner Peace 119,SelfHelp,388,3,5
+120,ML Concepts 120,Education,759,3,5
+121,Success Path 121,SelfHelp,246,1,5
+122,ML Concepts 122,Education,620,3,4
+123,Better You 123,SelfHelp,362,2,4
+124,Daily Discipline 124,SelfHelp,261,3,4
+125,Magic Realm 125,Fantasy,436,4,5
+126,Magic Realm 126,Fantasy,265,4,4
+127,Inner Peace 127,SelfHelp,299,2,4
+128,Kingdom of Fire 128,Fantasy,598,5,5
+129,Shadow Sword 129,Fantasy,589,4,3
+130,Daily Discipline 130,SelfHelp,372,2,5
+131,Tech Foundations 131,Education,709,3,4
+132,Wizard Quest 132,Fantasy,646,4,3
+133,Daily Discipline 133,SelfHelp,351,3,5
+134,Python Guide 134,Education,730,5,3
+135,Tech Foundations 135,Education,313,5,5
+136,AI Basics 136,Education,342,5,3
+137,Mind Power 137,SelfHelp,192,2,5
+138,Mind Power 138,SelfHelp,296,2,5
+139,Daily Discipline 139,SelfHelp,372,2,5
+140,Kingdom of Fire 140,Fantasy,219,5,3
+141,Mind Power 141,SelfHelp,346,1,4
+142,Magic Realm 142,Fantasy,404,1,5
+143,Magic Realm 143,Fantasy,329,4,5
+144,Shadow Sword 144,Fantasy,423,4,5
+145,Daily Discipline 145,SelfHelp,222,3,4
+146,Wizard Quest 146,Fantasy,310,5,3
+147,Inner Peace 147,SelfHelp,353,2,5
+148,Python Guide 148,Education,338,3,3
+149,Data Science Handbook 149,Education,735,2,5
+150,Wizard Quest 150,Fantasy,745,4,5
+151,Better You 151,SelfHelp,309,3,5
+152,Kingdom of Fire 152,Fantasy,701,1,4
+153,Success Path 153,SelfHelp,361,1,5
+154,Shadow Sword 154,Fantasy,866,3,5
+155,ML Concepts 155,Education,538,5,5
+156,Data Science Handbook 156,Education,465,3,3
+157,Success Path 157,SelfHelp,242,2,5
+158,Better You 158,SelfHelp,306,2,4
+159,Mind Power 159,SelfHelp,270,2,5
+160,Inner Peace 160,SelfHelp,359,2,4
+161,Python Guide 161,Education,343,3,5
+162,Success Path 162,SelfHelp,322,1,5
+163,ML Concepts 163,Education,529,2,3
+164,Mind Power 164,SelfHelp,283,3,4
+165,Inner Peace 165,SelfHelp,274,2,5
+166,Inner Peace 166,SelfHelp,264,2,5
+167,Daily Discipline 167,SelfHelp,244,1,4
+168,Python Guide 168,Education,461,2,5
+169,Python Guide 169,Education,398,3,5
+170,Daily Discipline 170,SelfHelp,365,3,5
+171,Magic Realm 171,Fantasy,503,2,4
+172,Wizard Quest 172,Fantasy,214,5,3
+173,Better You 173,SelfHelp,193,3,5
+174,Python Guide 174,Education,626,5,3
+175,Shadow Sword 175,Fantasy,491,4,4
+176,Daily Discipline 176,SelfHelp,227,1,5
+177,Better You 177,SelfHelp,390,1,5
+178,Better You 178,SelfHelp,327,3,4
+179,Magic Realm 179,Fantasy,776,3,3
+180,Dragon Tales 180,Fantasy,771,4,5
+181,Tech Foundations 181,Education,415,5,4
+182,Daily Discipline 182,SelfHelp,400,3,5
+183,Inner Peace 183,SelfHelp,338,1,4
+184,Magic Realm 184,Fantasy,470,1,3
+185,Magic Realm 185,Fantasy,765,1,3
+186,Kingdom of Fire 186,Fantasy,661,5,4
+187,Better You 187,SelfHelp,239,2,5
+188,ML Concepts 188,Education,336,3,4
+189,Tech Foundations 189,Education,638,3,4
+190,Shadow Sword 190,Fantasy,430,2,4
+191,Dragon Tales 191,Fantasy,261,2,4
+192,Tech Foundations 192,Education,771,4,4
+193,Kingdom of Fire 193,Fantasy,511,4,4
+194,Tech Foundations 194,Education,552,5,3
+195,AI Basics 195,Education,755,5,5
+196,Inner Peace 196,SelfHelp,244,1,4
+197,Shadow Sword 197,Fantasy,801,1,5
+198,Inner Peace 198,SelfHelp,190,1,5
+199,ML Concepts 199,Education,769,4,3
+200,ML Concepts 200,Education,625,5,3
+201,Daily Discipline 201,SelfHelp,284,2,5
+202,AI Basics 202,Education,739,3,4
+203,Success Path 203,SelfHelp,253,3,5
+204,AI Basics 204,Education,532,2,4
+205,Daily Discipline 205,SelfHelp,209,2,4
+206,Tech Foundations 206,Education,536,5,3
+207,Shadow Sword 207,Fantasy,570,5,4
+208,ML Concepts 208,Education,689,2,3
+209,Inner Peace 209,SelfHelp,213,2,5
+210,ML Concepts 210,Education,362,2,5
+211,Python Guide 211,Education,663,3,4
+212,AI Basics 212,Education,582,5,3
+213,Dragon Tales 213,Fantasy,672,1,5
+214,Kingdom of Fire 214,Fantasy,498,5,5
+215,Success Path 215,SelfHelp,393,2,5
+216,Kingdom of Fire 216,Fantasy,764,2,4
+217,Shadow Sword 217,Fantasy,720,2,3
+218,Success Path 218,SelfHelp,267,3,5
+219,Wizard Quest 219,Fantasy,505,5,5
+220,ML Concepts 220,Education,743,3,4
+221,ML Concepts 221,Education,476,4,5
+222,ML Concepts 222,Education,533,4,3
+223,Python Guide 223,Education,592,5,3
+224,Better You 224,SelfHelp,261,3,5
+225,ML Concepts 225,Education,497,3,4
+226,Magic Realm 226,Fantasy,714,5,4
+227,Kingdom of Fire 227,Fantasy,302,5,4
+228,Magic Realm 228,Fantasy,619,2,3
+229,Daily Discipline 229,SelfHelp,266,3,5
+230,AI Basics 230,Education,736,4,5
+231,ML Concepts 231,Education,788,4,5
+232,ML Concepts 232,Education,746,2,5
+233,Magic Realm 233,Fantasy,846,3,3
+234,AI Basics 234,Education,522,2,5
+235,AI Basics 235,Education,527,3,5
+236,Better You 236,SelfHelp,191,2,4
+237,Daily Discipline 237,SelfHelp,275,2,4
+238,Shadow Sword 238,Fantasy,621,5,5
+239,Magic Realm 239,Fantasy,379,1,5
+240,Inner Peace 240,SelfHelp,354,1,5
+241,Python Guide 241,Education,418,5,5
+242,Success Path 242,SelfHelp,245,3,4
+243,Daily Discipline 243,SelfHelp,353,3,4
+244,Kingdom of Fire 244,Fantasy,553,5,4
+245,ML Concepts 245,Education,653,4,4
+246,Mind Power 246,SelfHelp,278,2,4
+247,Kingdom of Fire 247,Fantasy,785,3,5
+248,Daily Discipline 248,SelfHelp,185,3,5
+249,Better You 249,SelfHelp,324,3,4
+250,ML Concepts 250,Education,726,4,3
+251,Data Science Handbook 251,Education,412,3,5
+252,Mind Power 252,SelfHelp,340,1,4
+253,Success Path 253,SelfHelp,188,3,5
+254,Python Guide 254,Education,346,4,4
+255,ML Concepts 255,Education,389,3,3
+256,Data Science Handbook 256,Education,571,4,3
+257,Success Path 257,SelfHelp,386,2,5
+258,Kingdom of Fire 258,Fantasy,277,2,3
+259,ML Concepts 259,Education,795,4,3
+260,Better You 260,SelfHelp,247,3,4
+261,Daily Discipline 261,SelfHelp,352,3,5
+262,ML Concepts 262,Education,721,4,3
+263,Python Guide 263,Education,541,2,5
+264,Data Science Handbook 264,Education,768,3,5
+265,Kingdom of Fire 265,Fantasy,509,4,3
+266,Dragon Tales 266,Fantasy,238,3,4
+267,Dragon Tales 267,Fantasy,440,5,3
+268,Success Path 268,SelfHelp,274,3,5
+269,Python Guide 269,Education,753,5,5
+270,Kingdom of Fire 270,Fantasy,830,4,4
+271,Wizard Quest 271,Fantasy,422,4,4
+272,Wizard Quest 272,Fantasy,301,3,5
+273,Data Science Handbook 273,Education,331,5,4
+274,Dragon Tales 274,Fantasy,665,1,5
+275,Shadow Sword 275,Fantasy,221,1,4
+276,Magic Realm 276,Fantasy,778,2,3
+277,Python Guide 277,Education,600,3,3
+278,Mind Power 278,SelfHelp,381,3,4
+279,Mind Power 279,SelfHelp,213,3,5
+280,Dragon Tales 280,Fantasy,876,1,3
+281,Wizard Quest 281,Fantasy,443,5,4
+282,Magic Realm 282,Fantasy,471,1,3
+283,ML Concepts 283,Education,569,2,5
+284,Kingdom of Fire 284,Fantasy,659,3,5
+285,AI Basics 285,Education,531,3,5
+286,Shadow Sword 286,Fantasy,508,4,5
+287,Dragon Tales 287,Fantasy,690,4,4
+288,AI Basics 288,Education,551,5,3
+289,Wizard Quest 289,Fantasy,822,2,3
+290,Wizard Quest 290,Fantasy,839,5,5
+291,Data Science Handbook 291,Education,495,4,4
+292,Tech Foundations 292,Education,520,2,5
+293,Shadow Sword 293,Fantasy,420,4,4
+294,Kingdom of Fire 294,Fantasy,547,4,4
+295,Better You 295,SelfHelp,260,2,5
+296,Data Science Handbook 296,Education,491,3,5
+297,Better You 297,SelfHelp,203,1,4
+298,Better You 298,SelfHelp,370,3,5
+299,Shadow Sword 299,Fantasy,261,5,5
+300,Data Science Handbook 300,Education,643,2,4
+301,Success Path 301,SelfHelp,364,1,5
+302,Data Science Handbook 302,Education,480,2,5
+303,Python Guide 303,Education,379,5,3
+304,Wizard Quest 304,Fantasy,769,3,3
+305,Inner Peace 305,SelfHelp,237,2,4
+306,Data Science Handbook 306,Education,314,3,4
+307,Data Science Handbook 307,Education,771,4,4
+308,Magic Realm 308,Fantasy,346,5,5
+309,Better You 309,SelfHelp,216,3,4
+310,Shadow Sword 310,Fantasy,420,4,4
+311,Daily Discipline 311,SelfHelp,220,2,5
+312,Data Science Handbook 312,Education,697,2,3
+313,Magic Realm 313,Fantasy,832,1,5
+314,Wizard Quest 314,Fantasy,653,4,4
+315,ML Concepts 315,Education,512,4,3
+316,AI Basics 316,Education,476,5,3
+317,Inner Peace 317,SelfHelp,304,3,5
+318,Magic Realm 318,Fantasy,604,5,3
+319,Magic Realm 319,Fantasy,508,2,3
+320,Daily Discipline 320,SelfHelp,263,1,4
+321,Success Path 321,SelfHelp,224,1,5
+322,Python Guide 322,Education,556,4,3
+323,Better You 323,SelfHelp,291,1,5
+324,Wizard Quest 324,Fantasy,789,4,5
+325,Success Path 325,SelfHelp,254,1,5
+326,Wizard Quest 326,Fantasy,375,5,4
+327,Data Science Handbook 327,Education,345,5,3
+328,Kingdom of Fire 328,Fantasy,803,4,5
+329,Kingdom of Fire 329,Fantasy,517,3,3
+330,Mind Power 330,SelfHelp,199,3,4
+331,Tech Foundations 331,Education,399,4,4
+332,Python Guide 332,Education,420,2,3
+333,Mind Power 333,SelfHelp,224,3,4
+334,AI Basics 334,Education,390,5,4
+335,Tech Foundations 335,Education,529,4,5
+336,Mind Power 336,SelfHelp,292,1,5
+337,Daily Discipline 337,SelfHelp,383,2,4
+338,Inner Peace 338,SelfHelp,198,2,5
+339,Better You 339,SelfHelp,194,2,5
+340,Dragon Tales 340,Fantasy,829,5,5
+341,Success Path 341,SelfHelp,328,3,4
+342,Inner Peace 342,SelfHelp,346,1,5
+343,ML Concepts 343,Education,556,3,3
+344,Better You 344,SelfHelp,387,2,4
+345,Python Guide 345,Education,320,3,5
+346,Success Path 346,SelfHelp,314,3,4
+347,Daily Discipline 347,SelfHelp,252,2,5
+348,Inner Peace 348,SelfHelp,193,3,5
+349,Wizard Quest 349,Fantasy,296,5,5
+350,Daily Discipline 350,SelfHelp,244,3,4
+351,Better You 351,SelfHelp,329,3,4
+352,Daily Discipline 352,SelfHelp,347,3,5
+353,Shadow Sword 353,Fantasy,286,3,5
+354,Daily Discipline 354,SelfHelp,388,1,4
+355,ML Concepts 355,Education,560,4,3
+356,Daily Discipline 356,SelfHelp,226,1,5
+357,Mind Power 357,SelfHelp,237,1,4
+358,Wizard Quest 358,Fantasy,303,5,5
+359,Tech Foundations 359,Education,319,4,5
+360,Shadow Sword 360,Fantasy,585,2,3
+361,Shadow Sword 361,Fantasy,369,4,3
+362,Daily Discipline 362,SelfHelp,353,3,4
+363,Inner Peace 363,SelfHelp,252,3,5
+364,Shadow Sword 364,Fantasy,444,3,4
+365,Wizard Quest 365,Fantasy,894,5,4
+366,Daily Discipline 366,SelfHelp,379,2,5
+367,Magic Realm 367,Fantasy,819,2,4
+368,Kingdom of Fire 368,Fantasy,580,5,3
+369,Tech Foundations 369,Education,735,2,4
+370,Magic Realm 370,Fantasy,479,4,5
+371,Kingdom of Fire 371,Fantasy,293,2,4
+372,Better You 372,SelfHelp,286,1,5
+373,Data Science Handbook 373,Education,420,5,3
+374,Mind Power 374,SelfHelp,187,2,4
+375,Data Science Handbook 375,Education,705,3,3
+376,Wizard Quest 376,Fantasy,683,2,5
+377,Success Path 377,SelfHelp,337,1,4
+378,Wizard Quest 378,Fantasy,420,2,5
+379,Tech Foundations 379,Education,570,5,3
+380,Mind Power 380,SelfHelp,257,1,4
+381,Kingdom of Fire 381,Fantasy,854,5,4
+382,Dragon Tales 382,Fantasy,711,5,5
+383,Shadow Sword 383,Fantasy,788,2,5
+384,Wizard Quest 384,Fantasy,639,1,5
+385,Mind Power 385,SelfHelp,326,2,4
+386,AI Basics 386,Education,568,4,3
+387,Tech Foundations 387,Education,559,2,4
+388,Better You 388,SelfHelp,342,2,5
+389,Better You 389,SelfHelp,271,1,5
+390,Dragon Tales 390,Fantasy,795,3,3
+391,Wizard Quest 391,Fantasy,759,3,5
+392,Kingdom of Fire 392,Fantasy,690,2,3
+393,Kingdom of Fire 393,Fantasy,237,3,3
+394,Magic Realm 394,Fantasy,242,3,4
+395,ML Concepts 395,Education,717,5,4
+396,Magic Realm 396,Fantasy,492,3,3
+397,Data Science Handbook 397,Education,439,2,4
+398,Success Path 398,SelfHelp,370,2,5
+399,Mind Power 399,SelfHelp,307,3,5
+400,Inner Peace 400,SelfHelp,248,1,5
+401,Kingdom of Fire 401,Fantasy,816,2,5
+402,Daily Discipline 402,SelfHelp,206,1,5
+403,Data Science Handbook 403,Education,456,5,5
+404,ML Concepts 404,Education,385,5,4
+405,Better You 405,SelfHelp,366,2,5
+406,Better You 406,SelfHelp,199,3,5
+407,Inner Peace 407,SelfHelp,385,3,4
+408,Magic Realm 408,Fantasy,822,4,3
+409,Dragon Tales 409,Fantasy,441,3,4
+410,Inner Peace 410,SelfHelp,188,3,4
+411,ML Concepts 411,Education,785,4,4
+412,Better You 412,SelfHelp,326,1,5
+413,Daily Discipline 413,SelfHelp,346,2,4
+414,Dragon Tales 414,Fantasy,390,4,5
+415,Inner Peace 415,SelfHelp,210,2,5
+416,ML Concepts 416,Education,409,4,5
+417,Mind Power 417,SelfHelp,211,1,4
+418,Mind Power 418,SelfHelp,362,2,4
+419,Data Science Handbook 419,Education,641,4,5
+420,Shadow Sword 420,Fantasy,755,3,4
+421,Magic Realm 421,Fantasy,570,5,3
+422,Magic Realm 422,Fantasy,342,2,4
+423,Wizard Quest 423,Fantasy,767,5,4
+424,Inner Peace 424,SelfHelp,213,3,4
+425,Wizard Quest 425,Fantasy,607,4,5
+426,Success Path 426,SelfHelp,390,3,4
+427,Wizard Quest 427,Fantasy,857,1,4
+428,Inner Peace 428,SelfHelp,268,1,4
+429,Kingdom of Fire 429,Fantasy,714,1,3
+430,Python Guide 430,Education,455,3,3
+431,Mind Power 431,SelfHelp,268,3,5
+432,Wizard Quest 432,Fantasy,401,5,4
+433,Wizard Quest 433,Fantasy,829,5,3
+434,Python Guide 434,Education,603,3,3
+435,Tech Foundations 435,Education,668,4,5
+436,Dragon Tales 436,Fantasy,283,1,5
+437,Data Science Handbook 437,Education,633,3,5
+438,Inner Peace 438,SelfHelp,343,1,5
+439,Tech Foundations 439,Education,448,4,4
+440,Kingdom of Fire 440,Fantasy,504,4,3
+441,AI Basics 441,Education,380,5,4
+442,Success Path 442,SelfHelp,232,2,4
+443,Daily Discipline 443,SelfHelp,367,2,5
+444,Wizard Quest 444,Fantasy,727,5,3
+445,Mind Power 445,SelfHelp,299,1,5
+446,Mind Power 446,SelfHelp,216,1,4
+447,Success Path 447,SelfHelp,337,2,4
+448,Wizard Quest 448,Fantasy,791,3,3
+449,Kingdom of Fire 449,Fantasy,727,4,4
+450,Success Path 450,SelfHelp,185,1,5
+451,ML Concepts 451,Education,794,3,3
+452,Data Science Handbook 452,Education,324,2,4
+453,Inner Peace 453,SelfHelp,395,3,5
+454,Inner Peace 454,SelfHelp,182,1,5
+455,Wizard Quest 455,Fantasy,574,4,4
+456,Kingdom of Fire 456,Fantasy,252,5,5
+457,Wizard Quest 457,Fantasy,766,3,3
+458,Inner Peace 458,SelfHelp,295,3,5
+459,Tech Foundations 459,Education,360,3,3
+460,Daily Discipline 460,SelfHelp,383,2,5
+461,Magic Realm 461,Fantasy,816,5,4
+462,AI Basics 462,Education,323,2,3
+463,Data Science Handbook 463,Education,711,5,5
+464,Mind Power 464,SelfHelp,335,3,4
+465,Inner Peace 465,SelfHelp,261,1,5
+466,Data Science Handbook 466,Education,603,4,5
+467,Tech Foundations 467,Education,550,4,4
+468,Wizard Quest 468,Fantasy,539,1,4
+469,Data Science Handbook 469,Education,707,2,5
+470,Daily Discipline 470,SelfHelp,347,3,4
+471,AI Basics 471,Education,598,5,3
+472,Tech Foundations 472,Education,696,5,3
+473,Python Guide 473,Education,316,2,3
+474,Kingdom of Fire 474,Fantasy,521,4,3
+475,Mind Power 475,SelfHelp,285,3,5
+476,AI Basics 476,Education,661,3,5
+477,Shadow Sword 477,Fantasy,532,4,5
+478,Daily Discipline 478,SelfHelp,224,2,5
+479,Data Science Handbook 479,Education,646,4,5
+480,Mind Power 480,SelfHelp,243,2,5
+481,Wizard Quest 481,Fantasy,495,2,5
+482,ML Concepts 482,Education,462,5,4
+483,Data Science Handbook 483,Education,447,2,5
+484,Tech Foundations 484,Education,494,5,4
+485,Wizard Quest 485,Fantasy,243,3,5
+486,Wizard Quest 486,Fantasy,652,3,5
+487,Mind Power 487,SelfHelp,231,3,5
+488,Data Science Handbook 488,Education,370,2,5
+489,Tech Foundations 489,Education,422,3,3
+490,Tech Foundations 490,Education,415,3,3
+491,Kingdom of Fire 491,Fantasy,538,4,3
+492,Python Guide 492,Education,302,3,4
+493,ML Concepts 493,Education,544,3,4
+494,Daily Discipline 494,SelfHelp,345,1,4
+495,Tech Foundations 495,Education,418,2,3
+496,Mind Power 496,SelfHelp,189,2,5
+497,Wizard Quest 497,Fantasy,238,1,4
+498,Tech Foundations 498,Education,354,4,4
+499,Inner Peace 499,SelfHelp,314,2,4
+500,ML Concepts 500,Education,439,3,3
+501,Mind Power 501,SelfHelp,367,2,5
+502,Python Guide 502,Education,307,4,4
+503,Python Guide 503,Education,389,5,4
+504,Data Science Handbook 504,Education,344,5,5
+505,Magic Realm 505,Fantasy,343,4,4
+506,Dragon Tales 506,Fantasy,467,4,3
+507,Daily Discipline 507,SelfHelp,264,2,4
+508,Daily Discipline 508,SelfHelp,357,1,4
+509,AI Basics 509,Education,538,4,3
+510,Inner Peace 510,SelfHelp,360,2,4
+511,Data Science Handbook 511,Education,488,3,3
+512,Kingdom of Fire 512,Fantasy,356,4,5
+513,Data Science Handbook 513,Education,512,5,5
+514,Python Guide 514,Education,690,3,5
+515,AI Basics 515,Education,569,5,5
+516,Data Science Handbook 516,Education,339,2,3
+517,Tech Foundations 517,Education,403,3,3
+518,Inner Peace 518,SelfHelp,293,1,4
+519,Tech Foundations 519,Education,550,2,5
+520,Better You 520,SelfHelp,296,1,5
