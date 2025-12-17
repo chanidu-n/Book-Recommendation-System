@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Dashboard from './Dashboard';
 
 
 function App() {
@@ -23,7 +24,7 @@ setResult(data);
 
 return (
 <div style={{ padding: '40px' }}>
-<h1>📊 Regression Book Recommendation</h1>
+<h1>📚 Smart Book Advisor</h1>
 
 
 <select onChange={e => setGenre(e.target.value)}>
@@ -33,26 +34,14 @@ return (
 </select>
 
 
-<input type="number" placeholder="Pages"
-value={pages} onChange={e => setPages(e.target.value)} />
+<input type="number" value={pages} onChange={e => setPages(e.target.value)} />
+<input type="number" value={difficulty} onChange={e => setDifficulty(e.target.value)} />
 
 
-<input type="number" placeholder="Difficulty (1–5)"
-value={difficulty} onChange={e => setDifficulty(e.target.value)} />
+<button onClick={recommend}>Analyze</button>
 
 
-<button onClick={recommend}>Predict & Recommend</button>
-
-
-{result && (
-<div>
-<h3>Predicted Rating: {result.predicted_rating}</h3>
-<h4>Recommended Books:</h4>
-<ul>
-{result.recommended_books.map((b, i) => <li key={i}>{b}</li>)}
-</ul>
-</div>
-)}
+<Dashboard result={result} />
 </div>
 );
 }

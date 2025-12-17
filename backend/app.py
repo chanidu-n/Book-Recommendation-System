@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 import joblib
+from chatbot import chatbot_response
 
 app = Flask(__name__)
 CORS(app)
@@ -22,15 +23,12 @@ def recommend():
     pages = int(data["pages"])
     difficulty = int(data["difficulty"])
 
-    # Encode genre
     genre_encoded = encoder.transform([genre])[0]
 
-    # Predict rating
     predicted_rating = model.predict(
         [[genre_encoded, pages, difficulty]]
     )[0]
 
-    # Recommend top books from same genre
     recommendations = (
         df[df["genre"] == genre]
         .sort_values(by="user_rating", ascending=False)
@@ -41,6 +39,18 @@ def recommend():
     return jsonify({
         "predicted_rating": round(float(predicted_rating), 2),
         "recommended_books": recommendations
+    })
+
+
+@app.route("/chat", methods=["POST"])
+def chat():
+    data = request.json
+    user_message = data["message"]
+
+    reply = chatbot_response(user_message)
+
+    return jsonify({
+        "reply": reply
     })
 
 
