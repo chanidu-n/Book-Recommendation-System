@@ -16,22 +16,27 @@ const [error, setError] = useState('');
 const recommend = async () => {
 setLoading(true);
 setError('');
-
 try {
 const res = await fetch('http://127.0.0.1:5000/recommend', {
 method: 'POST',
 headers: { 'Content-Type': 'application/json' },
-body: JSON.stringify({ genre, pages, difficulty })
+body: JSON.stringify({
+genre,
+pages: Number(pages),
+difficulty: Number(difficulty)
+})
 });
 
-if (!res.ok) {
-throw new Error('Failed to fetch recommendations');
-}
-
 const data = await res.json();
+if (!res.ok) {
+setError(data.error || 'Failed to fetch recommendations');
+setResult(null);
+return;
+}
 setResult(data);
 } catch (err) {
 setError('Could not connect to server. Please check if backend is running.');
+setResult(null);
 } finally {
 setLoading(false);
 }
@@ -41,10 +46,7 @@ setLoading(false);
 const genres = [
 { value: 'Fantasy', emoji: '🧙‍♂️', color: '#9b59b6' },
 { value: 'SelfHelp', emoji: '💡', color: '#3498db' },
-{ value: 'Education', emoji: '🎓', color: '#e74c3c' },
-{ value: 'Mystery', emoji: '🔍', color: '#f39c12' },
-{ value: 'Romance', emoji: '💖', color: '#e91e63' },
-{ value: 'Science', emoji: '🔬', color: '#00bcd4' }
+{ value: 'Education', emoji: '🎓', color: '#e74c3c' }
 ];
 
 
